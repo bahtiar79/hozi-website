@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheet Menu</title>
+    <style>
+        /* Basic page styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Navigation Menu */
+        .menu {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu a {
+            padding: 14px 20px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+        }
+
+        .menu a:hover {
+            background-color: #575757;
+        }
+
+        .menu a.active {
+            background-color: #4CAF50;
+        }
+
+        /* Content Area */
+        .content {
+            padding: 20px;
+            display: none;
+        }
+
+        .content.active {
+            display: block;
+        }
+
+        /* Sheet Layout */
+        .sheet {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            padding: 30px;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        .sheet h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .sheet p {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menu Section -->
+    <div class="menu">
+        <a href="#" class="active" onclick="showSheet(0)">Sheet 1</a>
+        <a href="#" onclick="showSheet(1)">Sheet 2</a>
+        <a href="#" onclick="showSheet(2)">Sheet 3</a>
+        <a href="#" onclick="showSheet(3)">Sheet 4</a>
+        <a href="#" onclick="showSheet(4)">Sheet 5</a>
+        <a href="#" onclick="showSheet(5)">Sheet 6</a>
+    </div>
+
+    <!-- Content Sections -->
+    <div id="sheet-0" class="content active">
+        <div class="sheet">
+            <h2>Sheet 1</h2>
+            <p>This is the content of the first sheet.</p>
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Example</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Sample Table</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>25</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>30</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Charlie</td>
+                <td>28</td>
+                <td>UK</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>35</td>
+                <td>Australia</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+
+        </div>
+    </div>
+
+    <div id="sheet-1" class="content">
+        <div class="sheet">
+            <h2>Sheet 2</h2>
+            <p>This is the content of the second sheet.</p>
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Example</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Sample Table</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>25</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>30</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Charlie</td>
+                <td>28</td>
+                <td>UK</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>35</td>
+                <td>Australia</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+
+        </div>
+    </div>
+
+    <div id="sheet-2" class="content">
+        <div class="sheet">
+            <h2>Sheet 3</h2>
+            <p>This is the content of the third sheet.</p>
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Example</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Sample Table</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>25</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>30</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Charlie</td>
+                <td>28</td>
+                <td>UK</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>35</td>
+                <td>Australia</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+
+        </div>
+    </div>
+    <div id="sheet-3" class="content">
+        <div class="sheet">
+            <h2>Sheet 4</h2>
+            <p>This is the content of the third sheet.</p>
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Example</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Sample Table</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>25</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>30</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Charlie</td>
+                <td>28</td>
+                <td>UK</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>35</td>
+                <td>Australia</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+
+        </div>
+    </div>
+    <div id="sheet-4" class="content">
+        <div class="sheet">
+            <h2>Sheet 5</h2>
+            <p>This is the content of the third sheet.</p>
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Example</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Sample Table</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>25</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>30</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Charlie</td>
+                <td>28</td>
+                <td>UK</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>35</td>
+                <td>Australia</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+
+        </div>
+    </div>
+    <div id="sheet-5" class="content">
+        <div class="sheet">
+            <h2>Sheet 6</h2>
+            <p>This is the content of the third sheet.</p>
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Example</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Sample Table</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>25</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>30</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Charlie</td>
+                <td>28</td>
+                <td>UK</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>35</td>
+                <td>Australia</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+
+        </div>
+    </div>
+
+    <script>
+        function showSheet(sheetIndex) {
+            // Hide all sheets
+            var sheets = document.querySelectorAll('.content');
+            sheets.forEach(function(sheet) {
+                sheet.classList.remove('active');
+            });
+
+            // Remove active class from all menu items
+            var menuLinks = document.querySelectorAll('.menu a');
+            menuLinks.forEach(function(link) {
+                link.classList.remove('active');
+            });
+
+            // Show the selected sheet
+            document.getElementById('sheet-' + sheetIndex).classList.add('active');
+
+            // Add active class to the clicked menu link
+            menuLinks[sheetIndex].classList.add('active');
+        }
+    </script>
+
+</body>
+</html>
